@@ -17,8 +17,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Add baseUrl to enable the use of paths
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"] // Use "@" for cleaner imports
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
